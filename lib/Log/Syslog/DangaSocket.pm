@@ -47,6 +47,8 @@ retried in the new one.
 
 L<Danga::Socket>
 
+L<Log::Syslog::Constants>
+
 L<Log::Syslog::Fast>
 
 =head1 AUTHOR
@@ -68,7 +70,7 @@ package Log::Syslog::DangaSocket;
 use strict;
 use warnings;
 
-our $VERSION = '1.05';
+our $VERSION = '1.06';
 
 our $CONNECT_TIMEOUT = 1;
 

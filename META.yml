@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Log-Syslog-DangaSocket
-version:            1.05
+version:            1.06
 abstract:           Danga::Socket wrapper around a syslog sending socket
 author:
     - Adam Thomason <athomason@cpan.org>
@@ -10,7 +10,8 @@ configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
     ExtUtils::MakeMaker:  0
-requires:  {}
+requires:
+    Danga::Socket:  1.59
 no_index:
     directory:
         - t
